@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es2020", 
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true
+  },
+  "include": ["*.ts", "__tests__/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
